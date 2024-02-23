@@ -2155,9 +2155,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/eslint-config@npm:7.2.0":
-  version: 7.2.0
-  resolution: "@softwareventures/eslint-config@npm:7.2.0"
+"@softwareventures/eslint-config@npm:7.3.0":
+  version: 7.3.0
+  resolution: "@softwareventures/eslint-config@npm:7.3.0"
   dependencies:
     tslib: ^2.3.1
   peerDependencies:
@@ -2170,7 +2170,7 @@ __metadata:
     eslint-plugin-prefer-arrow: ^1.2.3
     eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0
     typescript: ^3.8.3 || ^4.0.0 || ^5.0.0
-  checksum: fc4f88a967f55e1db3e957fa12e8ad2b9deb67cc3abb720b889e3cda1d9f31dd29e1b1b3009c4c2015b8229649a448cc63fede569ed471ce0c32982dff8487aa
+  checksum: 6c4f7f19883b582a3d6bdc68273edcf9638487a9b14a6274ee2572779ca0bd50de818e9112fa37c1865342c7c1a4842f1f47294e0c470daab2c1a4bb2ec43cab
   languageName: node
   linkType: hard
 
@@ -10000,7 +10000,7 @@ __metadata:
     "@commitlint/cz-commitlint": 18.6.1
     "@softwareventures/async-iterable": ^1.2.0
     "@softwareventures/chain": ^2.0.2 || ^3.0.0
-    "@softwareventures/eslint-config": 7.2.0
+    "@softwareventures/eslint-config": 7.3.0
     "@softwareventures/iterable": ^3.2.0
     "@softwareventures/nullable": ^3.1.0
     "@softwareventures/precise-commits": 3.0.33
