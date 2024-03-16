@@ -1978,9 +1978,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^11.0.0":
-  version: 11.0.2
-  resolution: "@semantic-release/npm@npm:11.0.2"
+"@semantic-release/npm@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "@semantic-release/npm@npm:12.0.0"
   dependencies:
     "@semantic-release/error": ^4.0.0
     aggregate-error: ^5.0.0
@@ -1989,7 +1989,7 @@ __metadata:
     lodash-es: ^4.17.21
     nerf-dart: ^1.0.0
     normalize-url: ^8.0.0
-    npm: ^10.0.0
+    npm: ^10.5.0
     rc: ^1.2.8
     read-pkg: ^9.0.0
     registry-auth-token: ^5.0.0
@@ -1997,7 +1997,7 @@ __metadata:
     tempy: ^3.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 88a27ad6756d78041793ff3d5729a15211b5cfdd336248ec332518936f7cccf9b5518d246e992a34281a3fa8176c8113ee95e986b5b8e71ae49d21b17dde7f4c
+  checksum: ceb6b368a262ffea616dfbe7a72dc7e048d06b81cc44efae3e207c281536fbc8f3500d170ea4dff75e3fbc585bb3ef119592b8356679594e2e918d4fe16c6fcf
   languageName: node
   linkType: hard
 
@@ -2044,6 +2044,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sigstore/protobuf-specs@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@sigstore/protobuf-specs@npm:0.3.0"
+  checksum: 584ea2888aede7124c747a343ab09dd5234195973f15169b6afff19f87347c2e29a2e688298dba87827883c704096fc31a8a0748049dde0b85fbec2cf922a350
+  languageName: node
+  linkType: hard
+
 "@sigstore/sign@npm:^2.2.1":
   version: 2.2.1
   resolution: "@sigstore/sign@npm:2.2.1"
@@ -2056,13 +2063,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sigstore/tuf@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "@sigstore/tuf@npm:2.3.0"
+"@sigstore/tuf@npm:^2.3.0, @sigstore/tuf@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@sigstore/tuf@npm:2.3.1"
   dependencies:
-    "@sigstore/protobuf-specs": ^0.2.1
+    "@sigstore/protobuf-specs": ^0.3.0
     tuf-js: ^2.2.0
-  checksum: 77ed2931c4e80b13310ccb1f57623bdf20b8c1d1760a07ed2f0b6c31aeed799cb839646f688c7cc3be05e05f7cf25acce18d90a864774ce768834a6e9017deef
+  checksum: 809befef876567b14240ee41baabc5b595e9d5a245c7cf31b7ae2e37f4600e0ac353b010807f5caa7b720d12f630ea5b33d2f222c1844083d6a1ee08b3cc4250
   languageName: node
   linkType: hard
 
@@ -7580,9 +7587,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm@npm:^10.0.0":
-  version: 10.4.0
-  resolution: "npm@npm:10.4.0"
+"npm@npm:^10.5.0":
+  version: 10.5.0
+  resolution: "npm@npm:10.5.0"
   dependencies:
     "@isaacs/string-locale-compare": ^1.1.0
     "@npmcli/arborist": ^7.2.1
@@ -7592,7 +7599,7 @@ __metadata:
     "@npmcli/package-json": ^5.0.0
     "@npmcli/promise-spawn": ^7.0.1
     "@npmcli/run-script": ^7.0.4
-    "@sigstore/tuf": ^2.3.0
+    "@sigstore/tuf": ^2.3.1
     abbrev: ^2.0.0
     archy: ~1.0.0
     cacache: ^18.0.2
@@ -7643,7 +7650,7 @@ __metadata:
     proc-log: ^3.0.0
     qrcode-terminal: ^0.12.0
     read: ^2.1.0
-    semver: ^7.5.4
+    semver: ^7.6.0
     spdx-expression-parse: ^3.0.1
     ssri: ^10.0.5
     supports-color: ^9.4.0
@@ -7657,7 +7664,7 @@ __metadata:
   bin:
     npm: bin/npm-cli.js
     npx: bin/npx-cli.js
-  checksum: 81285b77f86b9d7cb6b6893a9792efe6cb11367d87180fe27304ff82d4eb24f84c9c08399648501779bc5d7c728278e35e387de2908c47903997a32ec8da90a3
+  checksum: f9f2a9980df45fcf2b124929682bcd7ff2e7bffe0d47debdf46167d31733348cb790663dd28cbba312e6150a973572e1f8bb4dc834ec4bd1637812b708378882
   languageName: node
   linkType: hard
 
@@ -8746,14 +8753,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:23.0.3":
-  version: 23.0.3
-  resolution: "semantic-release@npm:23.0.3"
+"semantic-release@npm:23.0.4":
+  version: 23.0.4
+  resolution: "semantic-release@npm:23.0.4"
   dependencies:
     "@semantic-release/commit-analyzer": ^11.0.0
     "@semantic-release/error": ^4.0.0
     "@semantic-release/github": ^10.0.0
-    "@semantic-release/npm": ^11.0.0
+    "@semantic-release/npm": ^12.0.0
     "@semantic-release/release-notes-generator": ^12.0.0
     aggregate-error: ^5.0.0
     cosmiconfig: ^9.0.0
@@ -8781,7 +8788,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 1543ef6dac45c1ad58c9c5775f75b0ed49721cdcd8aa8154b39ab6659aaf8d142f1f1db72e2f9d6b74d6aa11fe67feed12fa82391046eb2b91820b309e9d2ddb
+  checksum: f1647554b4c6b1ae4699393ee0358b39b1ea86e4091786c72011caa84406e37c0fd2594fddadc8902b58e059703bf1e9440ee803d4e9d9569235b10bf99e1618
   languageName: node
   linkType: hard
 
@@ -8810,7 +8817,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.6.0, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.5.4":
+"semver@npm:7.6.0, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.6.0":
   version: 7.6.0
   resolution: "semver@npm:7.6.0"
   dependencies:
@@ -10014,7 +10021,7 @@ __metadata:
     inquirer: 8.2.6
     pinst: 3.0.0
     prettier: 2.8.8
-    semantic-release: 23.0.3
+    semantic-release: 23.0.4
     ts-node: 10.9.2
     tslib: 2.6.2
     typescript: 5.4.2
