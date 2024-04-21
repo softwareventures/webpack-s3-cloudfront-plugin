@@ -34,7 +34,7 @@
     "@softwareventures/nullable": "^3.1.0",
     "@softwareventures/timestamp": "^1.1.0",
     "tslib": "2.6.2",
-    "unknown": "0.2.5"
+    "unknown": "0.2.6"
   },
   "peerDependencies": {
     "webpack": "^5.0.0"

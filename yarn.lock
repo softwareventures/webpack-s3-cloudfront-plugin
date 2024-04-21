@@ -9910,10 +9910,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unknown@npm:0.2.5, unknown@npm:^0.2.5":
+"unknown@npm:0.2.5":
   version: 0.2.5
   resolution: "unknown@npm:0.2.5"
   checksum: 9afdf189e8fa7b99a76f112bdd263bcd586ab10ba0b8fc32f91629ec0c8d3709dc343df4bab66c383e37c48fc34d8f51461710b0209ae85803a0e6732e0fa29b
+  languageName: node
+  linkType: hard
+
+"unknown@npm:0.2.6, unknown@npm:^0.2.5":
+  version: 0.2.6
+  resolution: "unknown@npm:0.2.6"
+  checksum: 3855caf0866b768bb0ec671e2987342353d70b63899f4142adaf8e1579ddf012e1e3b30d325cd5fb5de82942dee4c3ae4708b837c2177dba424fd3e8158520b3
   languageName: node
   linkType: hard
 
@@ -10052,7 +10059,7 @@ __metadata:
     ts-node: 10.9.2
     tslib: 2.6.2
     typescript: 5.4.5
-    unknown: 0.2.5
+    unknown: 0.2.6
     webpack: 5.91.0
   peerDependencies:
     webpack: ^5.0.0
