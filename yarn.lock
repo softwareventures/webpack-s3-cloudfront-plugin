@@ -2440,12 +2440,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.31":
-  version: 18.19.31
-  resolution: "@types/node@npm:18.19.31"
+"@types/node@npm:18.19.43":
+  version: 18.19.43
+  resolution: "@types/node@npm:18.19.43"
   dependencies:
     undici-types: ~5.26.4
-  checksum: 949bddfd7071bd47300d1f33d380ee34695ccd5f046f1a03e4d2be0d953ace896905144d44a6f483f241b5ef34b86f0e40a0e312201117782eecf89e81a4ff13
+  checksum: 5eb9045aae6da86e8ad297381f93d29d2e7fcd4ed0c53670d9dff1e7b714920f8bbe5ee456289c19fc69c510ac197bdbacc7a785eaeba0afb9cb5d634a64bcd3
   languageName: node
   linkType: hard
 
@@ -10040,7 +10040,7 @@ __metadata:
     "@softwareventures/semantic-release-config": 4.1.0
     "@softwareventures/timestamp": ^1.1.0
     "@softwareventures/tsconfig": 7.1.1
-    "@types/node": 18.19.31
+    "@types/node": 18.19.43
     "@typescript-eslint/eslint-plugin": 5.62.0
     "@typescript-eslint/parser": 5.62.0
     ava: 5.3.1
