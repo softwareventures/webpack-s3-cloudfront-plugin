@@ -2171,9 +2171,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/eslint-config@npm:7.5.0":
-  version: 7.5.0
-  resolution: "@softwareventures/eslint-config@npm:7.5.0"
+"@softwareventures/eslint-config@npm:7.6.0":
+  version: 7.6.0
+  resolution: "@softwareventures/eslint-config@npm:7.6.0"
   dependencies:
     tslib: ^2.3.1
   peerDependencies:
@@ -2184,9 +2184,9 @@ __metadata:
     eslint-plugin-import: ^2.25.2
     eslint-plugin-jsdoc: ^37.0.3 || ^38.0.0 || ^39.0.0 || ^40.0.0 || ^41.0.0 || ^42.0.0 || ^43.0.0 || ^44.0.0 || ^45.0.0 || ^46.0.0 || ^47.0.0 || ^48.0.0
     eslint-plugin-prefer-arrow: ^1.2.3
-    eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0 || ^0.25.0
+    eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0 || ^0.25.0 || ^1.0.0
     typescript: ^3.8.3 || ^4.0.0 || ^5.0.0
-  checksum: 20eae948a84c584fea63f85437f1505a543dd79aea952778b52d927cb96c17e1f3dbb4aa78d5532f72a8ca524aa80d9baf1a43774768f765a8a63a8c853f164e
+  checksum: 39f075b8959ad0f224bd96594fab29117feed1579c2040a7f80039ded2e3dd9f058e2bdf7753918144c01fdf48c5cbaa6366b4d57f4d8d1e17aa0579cb2047e0
   languageName: node
   linkType: hard
 
@@ -10039,7 +10039,7 @@ __metadata:
     "@commitlint/cz-commitlint": 18.6.1
     "@softwareventures/async-iterable": ^1.2.0
     "@softwareventures/chain": ^2.0.2 || ^3.0.0
-    "@softwareventures/eslint-config": 7.5.0
+    "@softwareventures/eslint-config": 7.6.0
     "@softwareventures/iterable": ^3.2.0
     "@softwareventures/nullable": ^3.1.0
     "@softwareventures/precise-commits": 4.0.15
