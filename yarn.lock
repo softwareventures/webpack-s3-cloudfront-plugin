@@ -2321,15 +2321,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/semantic-release-config@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@softwareventures/semantic-release-config@npm:4.1.0"
+"@softwareventures/semantic-release-config@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@softwareventures/semantic-release-config@npm:5.1.0"
   dependencies:
-    tslib: 2.6.2
+    tslib: 2.8.1
   peerDependencies:
     conventional-changelog-conventionalcommits: ^4.6.3 || ^5.0.0 || ^6.0.0 || ^7.0.0
+    pinst: ">= 2.1.6"
     semantic-release: ^17.0.7 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0 || ^22.0.0 || ^23.0.0
-  checksum: 137a41cabe737dd2c80c4ec8a5795cd9299ad4efae900f9a93f415236ea8dc264c05b0e336b384e4d904c55bc016f37055260c145bc6e1079bfc318133977b06
+    semantic-release-pinst: ^1.0.0
+  checksum: b2af50c0f6f39660b4f33100c6c432657fe8cb5643e315badb051a96c439b0819fdff13d95712b6f6c355c4211653f01a104ac8f5126d4286f60056ab4cf392a
   languageName: node
   linkType: hard
 
@@ -10278,7 +10280,7 @@ __metadata:
     "@softwareventures/nullable": ^3.1.0
     "@softwareventures/precise-commits": 4.0.18
     "@softwareventures/prettier-config": 4.0.0
-    "@softwareventures/semantic-release-config": 4.1.0
+    "@softwareventures/semantic-release-config": 5.1.0
     "@softwareventures/timestamp": ^1.1.0 || ^2.0.0
     "@softwareventures/tsconfig": 7.3.0
     "@types/node": 18.19.68
