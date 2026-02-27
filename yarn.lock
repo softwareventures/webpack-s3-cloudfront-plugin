@@ -2138,14 +2138,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/array@npm:7.0.0, @softwareventures/array@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "@softwareventures/array@npm:7.0.0"
+"@softwareventures/array@npm:7.0.1, @softwareventures/array@npm:^7.0.0":
+  version: 7.0.1
+  resolution: "@softwareventures/array@npm:7.0.1"
   dependencies:
     "@softwareventures/nullable": ^1.0.0 || ^2.0.0 || ^3.0.0
     "@softwareventures/ordered": ^1.1.0 || ^2.0.0
     tslib: ^2.0.0
-  checksum: 1dfe929b954847c842117a90f4eabff8b755649dc4cb5341f19001a0daa0408adef6da584754948a7f6e206a6216265ab19dd8aac909f57226510a4acbae0336
+  checksum: 8c2e983d04ae1cb13018115c00c9e207a5e86ac2b96b7b5a1742a290b5ddb02d2fd0d2b818722ce9f1b3b796866295d79eba0812a0ce536adf7188085d64f961
   languageName: node
   linkType: hard
 
@@ -2290,25 +2290,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/precise-commits@npm:4.0.18":
-  version: 4.0.18
-  resolution: "@softwareventures/precise-commits@npm:4.0.18"
+"@softwareventures/precise-commits@npm:4.0.23":
+  version: 4.0.23
+  resolution: "@softwareventures/precise-commits@npm:4.0.23"
   dependencies:
-    "@softwareventures/array": 7.0.0
+    "@softwareventures/array": 7.0.1
     "@softwareventures/nullable": 3.2.0
     execa: 5.1.1
     glob: 10.4.5
     ignore: 5.3.2
     mri: 1.2.0
     ora: 5.4.1
-    rxjs: 7.8.1
-    tslib: 2.6.2
+    rxjs: 7.8.2
+    tslib: 2.8.1
     unknown: 0.2.6
   peerDependencies:
     prettier: ^1.8.0 || ^2.0.0 || ^3.0.0
   bin:
     precise-commits: lib/cli.js
-  checksum: 0dfb97d70eb28aafef39a516fde43e47a351978b2594a42be7f8abb8d3642ec1864e859bec88a334d4f27f87511fac91b31d1b1e62b0f6a4a3b42c047e996bdc
+  checksum: 6abd8ac15956193fed63b8f004a363ca111778ebe713583df405a434be16d4be1f1c96eacefc1f8769c42cd1ec09ff0232959c206db7ec14474146a56258b315
   languageName: node
   linkType: hard
 
@@ -8933,12 +8933,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:7.8.1, rxjs@npm:^7.5.5":
-  version: 7.8.1
-  resolution: "rxjs@npm:7.8.1"
+"rxjs@npm:7.8.2, rxjs@npm:^7.5.5":
+  version: 7.8.2
+  resolution: "rxjs@npm:7.8.2"
   dependencies:
     tslib: ^2.1.0
-  checksum: de4b53db1063e618ec2eca0f7965d9137cabe98cf6be9272efe6c86b47c17b987383df8574861bcced18ebd590764125a901d5506082be84a8b8e364bf05f119
+  checksum: 2f233d7c832a6c255dabe0759014d7d9b1c9f1cb2f2f0d59690fd11c883c9826ea35a51740c06ab45b6ade0d9087bde9192f165cba20b6730d344b831ef80744
   languageName: node
   linkType: hard
 
@@ -10287,7 +10287,7 @@ __metadata:
     "@softwareventures/eslint-config": 7.9.0
     "@softwareventures/iterable": ^3.2.0
     "@softwareventures/nullable": ^3.1.0
-    "@softwareventures/precise-commits": 4.0.18
+    "@softwareventures/precise-commits": 4.0.23
     "@softwareventures/prettier-config": 4.0.0
     "@softwareventures/semantic-release-config": 4.1.0
     "@softwareventures/timestamp": ^1.1.0 || ^2.0.0
